@@ -62,16 +62,7 @@ The analysis follows a systematic EDA process:
 * Boxplots/Violin plots (`SalePrice` vs `Neighborhood`, `OverallQual`, etc.)
 
 ---
-
-### 📌 Key Insights
-
-* `OverallQual`, `GrLivArea`, `GarageArea`, and `TotalBsmtSF` are **strongly correlated** with `SalePrice`
-* Several columns have significant **missing values** (e.g., `PoolQC`, `Fence`, `MiscFeature`)
-* `SalePrice` is **right-skewed**, but becomes more linear and normally distributed when log-transformed
-* **Outliers** exist in both `GrLivArea` and `SalePrice` — likely candidates for removal or treatment
-
----
-
+ 
 ### 🛠️ Tools & Libraries
 
 * Python 3.x
